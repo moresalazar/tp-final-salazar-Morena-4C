@@ -1,0 +1,88 @@
+
+body {
+    background-color: #faf6f0; 
+    color: hsl(0, 0%, 0%);         
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hsl(304, 59%, 82%); 
+    border-bottom: 1px solid #FFFFFF;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    background-color: #FAF6F0;
+    border-radius: 50%;
+    padding: 5px;
+}
+ nav a {
+    text-decoration: none;
+    color: hotpink;
+    margin-left: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+ }
+
+ nav a:hover{
+    color: deeppink;
+ }
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+
+ h1,h2,h3 {
+    color: lab(55.51% 86.2 -7.56);
+    font-weight: 1.6rem;
+    letter-spacing: normal;
+}
+ p {
+    line-height: 2;
+    font-size: 20px;
+    color: hotpink;
+ }
+
+.botonera a {
+    text-decoration: none;
+    color: #FAF6F0;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 18px;
+    font-size:10px;
+    transition: background-color 0.3s;
+}
+
+.botonera a:hover, {
+    background-color: #C85A32;
+
+}
+
+footer {
+    background-color: hsl(330, 100%, 83%);
+    color: hsl(318, 100%, 50%);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
